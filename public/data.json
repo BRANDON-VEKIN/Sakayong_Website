@@ -1,0 +1,72 @@
+{
+  "site": { "name": "Head office", "lat": 13.6849, "lon": 100.43922 },
+  "readAt": "24 Nov 2026, 14:33",
+  "layers": [
+    { "label": "Rain, 7 days", "tiles": null },
+    { "label": "Fire pixels", "tiles": null },
+    { "label": "Drought", "tiles": null },
+    { "label": "Land heat", "tiles": null }
+  ],
+  "boxes": [
+    {
+      "id": "flood",
+      "title": "Flood (recent satellite passes)",
+      "value": "None mapped",
+      "status": "ok",
+      "note": "in the last 30 days, within 500 m of the point · no pass in the 1, 3, 7-day windows"
+    },
+    {
+      "id": "fire",
+      "title": "Wildfire and fire pixels",
+      "value": "0",
+      "unit": "within 10 km",
+      "status": "ok",
+      "note": "nearest 61 km · 0 within 25 km · last 7 days"
+    },
+    {
+      "id": "pm25",
+      "title": "PM2.5",
+      "value": "43.5",
+      "unit": "µg/m³ · twenty-four-hour average",
+      "status": "warning",
+      "note": "now 28.7 · 24 Nov 2026, 14:00"
+    },
+    {
+      "id": "rain",
+      "title": "Recent rain",
+      "value": "1.2",
+      "unit": "mm · newest day",
+      "status": "ok",
+      "note": "17 Nov 2026 · seven days 12.1 mm"
+    },
+    {
+      "id": "drought",
+      "title": "Drought (vegetation health)",
+      "value": "No reading",
+      "status": "notread",
+      "note": "no cropland or grassland under the point · Oct 2026"
+    },
+    {
+      "id": "heat",
+      "title": "Land-surface heat",
+      "value": "29.3",
+      "unit": "°C",
+      "status": "norule",
+      "note": "Nov 2026 · the month is not complete"
+    },
+    {
+      "id": "water",
+      "title": "Water quality / pollution",
+      "value": "Not connected",
+      "status": "notread",
+      "note": "no water-quality source yet — see water stress in step 09"
+    },
+    {
+      "id": "loan",
+      "title": "The pre-loan assessment",
+      "value": "Not read",
+      "status": "notread",
+      "note": "The baseline from step 09"
+    }
+  ]
+}
